@@ -5,6 +5,26 @@
 ###
 # @name produce
 GET /api/produce
+
+HTTP/1.1 200  - OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 4099
+etag: W/"1003-JqCEixcyE4Vrxg0RdpucxtqHLlY"
+date: Wed, 09 Apr 2025 15:10:16 GMT
+connection: close
+###
+GET /api/produce?category=fruit&country=USA
+
+HTTP/1.1 200  - OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 397
+etag: W/"18d-GrjrZJE4LQdxryzTvqr8U90p3Wk"
+date: Wed, 09 Apr 2025 15:11:53 GMT
+connection: close
 ###
 # @ref produce
 # @name product
